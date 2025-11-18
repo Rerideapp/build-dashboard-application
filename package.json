@@ -1,0 +1,15 @@
+{
+  "name": "build-dashboard-application",
+  "version": "1.0.0",
+  "description": "Build a dashboard application with data tables, charts, and analytics widgets for tracking key metrics.",
+  "scripts": {
+    "start": "serve .",
+    "dev": "serve ."
+  },
+  "keywords": [
+    "cpos",
+    "generated"
+  ],
+  "author": "CPOS",
+  "license": "MIT"
+}
