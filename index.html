@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build Dashboard Application - Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Build Dashboard Application</h1>
+            <p class="subtitle">Analytics Dashboard</p>
+        </header>
+        
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-value">2,543</div>
+                <div class="stat-label">Total Users</div>
+                <div class="stat-change positive">+12.5%</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">$12,458</div>
+                <div class="stat-label">Revenue</div>
+                <div class="stat-change positive">+8.2%</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">892</div>
+                <div class="stat-label">Active Sessions</div>
+                <div class="stat-change negative">-3.1%</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">98.5%</div>
+                <div class="stat-label">Uptime</div>
+                <div class="stat-change positive">+0.3%</div>
+            </div>
+        </div>
+
+        <div class="chart-section">
+            <h2>Performance Overview</h2>
+            <canvas id="chart"></canvas>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
